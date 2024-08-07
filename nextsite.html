@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAFAR SAATHIS</title>
+    <link rel="stylesheet" href="newstyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places,directions&callback=initMap" async defer></script>
+    <script src="newscript.js"></script>
+</head>
+<body>
+    <header>
+      <h1>SAFAR SAATHIS</h1>
+      <h3>Your Own Vehicle Tracking System</h3>
+    </header>
+    <main>
+      <br>
+      <h2>TRACK YOUR VEHICLE</h2>
+      <form action="track.php" method="POST">
+        <label for="vehicle_id">Vehicle ID:</label>
+        <input type="text" id="vehicle_id" name="vehicle_id" required>
+        <!-- <input type="submit" value="Track"> -->
+        <a href="map.html" class="button">Track</a>
+      </form>
+      <br>
+      <h2>VIEW TRACKED VEHICLES</h2>
+      <table>
+        <tr>
+          <th>Vehicle ID</th>
+          <th>Last Updated</th>
+        </tr>
+        <?php
+        // Database connection
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "vehicle_tracking";
+    </main>
+    <script>
+      function login() {
+        var username = document.getElementById("track").value;
+  
+        if (track != "" ) {
+          alert("Tracking Your vehicle location!");
+          // Redirect to next page
+          window.location.href = "map.html";
+        } else {
+          alert("Please enter Vehicle id!");
+        }
+      }
+    </script>
+</body>
+</html>

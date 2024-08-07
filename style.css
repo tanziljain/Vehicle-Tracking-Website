@@ -1,0 +1,105 @@
+body {
+  font-family: 'Lato', ;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-image: url(https://loconav.com/marketing_pages/assets/images/gps-vehicle-tracker/banner.jpg);
+}
+
+header {
+  background: radial-gradient(
+    circle at -3.1% -4.3%,
+    rgb(67, 25, 232) 0%,
+    rgb(11, 84, 95) 90%
+  );
+  background-color: #54b0d1;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.username{
+  text-align: center;
+}
+
+.password{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+footer {
+  background-color: #1e80e9;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  height: 6%;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+#map-container {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+  display: none;
+  text-align: center;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#google_translate_element {
+  text-align: center;
+}
